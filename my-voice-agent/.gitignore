@@ -1,0 +1,42 @@
+.env
+.env.*
+!.env.example
+!.env.local.example
+.DS_Store
+__pycache__
+.idea
+KMS
+.venv
+.vscode
+*.egg-info
+.pytest_cache
+.ruff_cache
+*.db
+*.sqlite3
+
+# Google OAuth Credentials & Tokens (Strictly Backend Only)
+*token*.json
+credentials*.json
+client_secret*.json
+
+
+# Claude Code
+.claude/settings.local.json
+.claude/worktrees/
+
+# OpenAI Codex
+.codex/config.local.toml
+
+# Gemini CLI
+.gemini/history/
+.gemini/tmp/
+.gemini/google_accounts.json
+.gemini/installation_id
+.gemini/oauth_creds.json
+
+# Cursor
+.cursor/chat/
+.cursor/rules/*.local.mdc
+
+# GitHub CLI
+.github/personal-instructions.md

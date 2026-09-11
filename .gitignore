@@ -1,0 +1,93 @@
+# ==============================================================================
+# Vaani - Root .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Environment & Secret Configuration (CRITICAL)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+*.env
+*.env.local
+*.local
+!.env.example
+!.env.local.example
+!frontend/.env.example
+!my-voice-agent/.env.example
+!my-voice-agent/.env.local.example
+
+# Google OAuth Credentials, Client Secrets, and Auth Tokens
+*token*.json
+credentials*.json
+client_secret*.json
+google_calendar_token.json
+
+# ------------------------------------------------------------------------------
+# 2. Databases & Persistent Local State
+# ------------------------------------------------------------------------------
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+agent_memory.db
+
+# ------------------------------------------------------------------------------
+# 3. Node & Frontend
+# ------------------------------------------------------------------------------
+node_modules/
+dist/
+dist-ssr/
+build/
+.npm
+*.tsbuildinfo
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ------------------------------------------------------------------------------
+# 4. Python & Virtual Environments
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+eggs/
+.eggs/
+
+# ------------------------------------------------------------------------------
+# 5. OS & IDE Configuration
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# Agent & IDE scratch directories
+.agents/
+.claude/
+.gemini/
+.cursor/
