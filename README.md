@@ -15,7 +15,7 @@ Powered by **LiveKit**, **Sarvam AI**, **Google Workspace**, and **React**.
 
 ---
 
-## 🌟 Highlights & Features
+##  Highlights & Features
 
 - **Natural Indian Voice Interaction**:
   - **STT**: High-accuracy Indian English and Indic speech recognition powered by Sarvam AI (`sarvam.STT(language="en-IN")`).
@@ -23,9 +23,9 @@ Powered by **LiveKit**, **Sarvam AI**, **Google Workspace**, and **React**.
   - **Voice Pipeline**: Real-time turn detection and adaptive interruption handling via LiveKit Agents framework.
 
 - **Google Workspace Integration**:
-  - 📅 **Google Calendar**: Check daily agenda, list upcoming events, search meetings, and schedule new calendar events with conflict checking.
-  - ✅ **Google Tasks**: Create tasks, view pending/completed tasks, and mark tasks as complete.
-  - ✉️ **Gmail**: Create email drafts and send emails with voice commands.
+  -  **Google Calendar**: Check daily agenda, list upcoming events, search meetings, and schedule new calendar events with conflict checking.
+  -  **Google Tasks**: Create tasks, view pending/completed tasks, and mark tasks as complete.
+  -  **Gmail**: Create email drafts and send emails with voice commands.
 
 - **Smart Email Recipient Memory**:
   - **Persistent SQLite Storage**: Remembers frequently used contact names and email addresses.
@@ -46,7 +46,7 @@ Powered by **LiveKit**, **Sarvam AI**, **Google Workspace**, and **React**.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```mermaid
 graph TD
@@ -65,7 +65,7 @@ graph TD
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 Vaani/
@@ -103,7 +103,7 @@ Vaani/
 
 ---
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 Before getting started, make sure you have the following installed:
 
@@ -125,7 +125,7 @@ Before getting started, make sure you have the following installed:
 
 ---
 
-## 🚀 Quickstart Guide
+##  Quickstart Guide
 
 ### 1. Clone the Repository
 
@@ -194,7 +194,7 @@ npm install
 
 ---
 
-## 🏃 Running Vaani Locally
+##  Running Vaani Locally
 
 ### Step 1: Start the Voice Agent Worker
 In a terminal window:
@@ -220,7 +220,7 @@ Visit **`http://localhost:5173`** in your browser.
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ### Backend Unit Tests (110 Tests)
 ```bash
@@ -244,7 +244,7 @@ Validates TypeScript type safety and packages client assets.
 
 ---
 
-## 🔑 Environment Variables Reference
+##  Environment Variables Reference
 
 | Variable | Required | Description |
 | :--- | :---: | :--- |
@@ -260,7 +260,7 @@ Validates TypeScript type safety and packages client assets.
 
 ---
 
-## 🔒 Security & Pre-Push Checklist
+##  Security & Pre-Push Checklist
 
 Before pushing to GitHub or any public remote:
 
@@ -271,6 +271,6 @@ Before pushing to GitHub or any public remote:
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
